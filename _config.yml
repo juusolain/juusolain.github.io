@@ -2,13 +2,13 @@
 title: Juuso Laine
 subtitle: Portfolio
 email: contact@jusola.xyz
-baseurl: "/"
+baseurl: ""
 url: https://jusola.xyz
 author: Juuso Laine
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 5
+tiles-count: 4
 featured-count: 3
 
 # social settings
