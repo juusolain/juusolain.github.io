@@ -2,7 +2,7 @@
 title: Juuso Laine
 subtitle: Portfolio
 email: contact@jusola.xyz
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/"
 url: https://jusola.xyz
 author: Juuso Laine
 
