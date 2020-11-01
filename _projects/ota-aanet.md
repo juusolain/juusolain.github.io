@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Everlost
-description: A UE4 videogame
+title: Ota-äänet
+description: A web-based voting system for the student body of Otaniemen lukio 
 image: null
 nav-menu: false
 show_tile: false

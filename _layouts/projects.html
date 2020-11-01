@@ -18,19 +18,15 @@
                 <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
             </span>
             <header class="major">
-                
                 <h1>{{ page.title }}</h1>
-                
             </header>
             <div class="content">
-                
                 {{ page.description }}
-                
             </div>
         </div>
     </section>
     
-    {% assign featuredpages = site.documents | where_exp: "item", "item.featured == true" | sort: "featured-index" %}
+    {% assign featuredpages = site.documents | where_exp: "item", "item.show == true" | sort: "post-index" %}
     <section id="one" class="spotlights">
         {% for featured in featuredpages limit:site.featured-count %}
         <section>
