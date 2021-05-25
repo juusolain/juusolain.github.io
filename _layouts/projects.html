@@ -26,7 +26,7 @@
         </div>
     </section>
     
-    {% assign featuredpages = site.documents | where_exp: "item", "item.show == true" | sort: "post-index" %}
+    {% assign featuredpages = site.programming | where_exp: "item", "item.show == true" | sort: "index" %}
     <section id="one" class="spotlights">
         {% for featured in featuredpages limit:site.featured-count %}
         <section>

@@ -1,9 +1,9 @@
 # site settings
 title: Juuso Laine
 subtitle: Portfolio
-email: contact@jusola.xyz
+email: contact@juusolain.fi
 baseurl: ""
-url: https://jusola.xyz
+url: https://juusolain.fi
 author: Juuso Laine
 
 # homepage tiles
@@ -14,24 +14,24 @@ featured-count: 3
 # social settings
 500px_url:
 facebook_url:
-github_url: https://github.com/jusola
+github_url: https://github.com/juusolain
 googleplus_url:
 instagram_url: https://instagram.com/juusolain
 linkedin_url:
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/Juulain_Jusola
+twitter_url:
 
 collections:
-  projects:
+  programming:
+    output: true
+  eventtech:
     output: true
   pages:
     output: true
-  photos:
-    output: true
 
 excerpt_separator: <!--more-->
-    
+
 # build settings
 markdown: kramdown
 
