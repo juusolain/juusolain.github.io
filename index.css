@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-Regular.woff2') format('woff2'),
+        url('AlbertSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --bg-color: #FEF5EF;
+    --text-color: #080A0C;
+    --accent-color: #232353;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #080A0C;
+        --text-color: #FEF5EF;
+        --accent-color: #B5B5CF;
+    }
+    
+}
+
+html {
+    font-family: 'Albert Sans', Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.header {
+    margin: auto;
+    max-width: 90%;
+    width: 900px;
+}
+
+.header * {
+    padding: 20px 0;
+}
+
+.main {
+    padding-top: 50px;
+    margin: auto;
+    max-width: 90%;
+    width: 900px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.image-me {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    max-width: 150px;
+}
