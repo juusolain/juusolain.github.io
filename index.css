@@ -32,21 +32,24 @@ body {
     background-color: var(--bg-color);
 }
 
-.header {
+header {
     margin: auto;
     max-width: 90%;
     width: 900px;
 }
 
-.header * {
+header * {
     padding: 20px 0;
+}
+
+section {
+    margin: auto;
+    max-width: 90%;
+    width: 900px;
 }
 
 .main {
     padding-top: 50px;
-    margin: auto;
-    max-width: 90%;
-    width: 900px;
 }
 
 .text-center {
@@ -63,4 +66,59 @@ a {
     margin: auto;
     border-radius: 50%;
     max-width: 150px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    display: flex;
+    background-color: var(--bg-light);
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25); 
+}
+
+.project::before {
+    content: '';
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background: linear-gradient(0deg, rgba(0,0,0,0.75)33%, rgba(0,0,0,0) 75%) no-repeat;
+    border-radius: 10px;
+}
+
+.project {
+    max-width: 440px;
+    align-self: flex-start;
+    position: relative;
+    flex: 0 1 440px;
+}
+
+.project .overlay > h1, h2, h3, h4, h5, h6 {
+    color: var(--white);
+}
+
+.project .overlay {
+    color: var(--bone);
+}
+
+.project .overlay {
+    position: absolute;
+    z-index: 20;
+    text-align: center;
+    bottom: 0px;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+.project img {
+    width: 100%;
+    object-fit: contain;
+    display: block;
+    border-radius: 10px;
 }
